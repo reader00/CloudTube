@@ -1,38 +1,774 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>CloudTube | Floating in the sky</title>
-</head>
-<body>
-    
-    <div class="v">
-        <section class="v-sections">
-            <article class="v-container">
-                <a href="#" class="thumb">
-                    <img class="v-thumb" src="/assets/images/1.jpg" alt="">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <title>CloudTube | Floating in the sky</title>
+    </head>
+
+    <body>
+
+        <header class="header">
+            <a href="#">
+                <img src="./assets//images//icon.ico" alt="CloudTube Logo" class="cloudtube-logo">
+            </a>
+
+            <form class="search-form">
+                <input class="search-input" type="text" placeholder="Cloudy...">
+                <button type="submit" class="search-btn">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+
+                </button>
+            </form>
+            <div class="menu">
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        video_call
+                    </span>
                 </a>
-                <div class="v-detail">
-                    <a href="#">
-                        <img class="c-icon" src="/assets/images/2.jpg" alt="">
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        apps
+                    </span>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        notifications
+                    </span>
+                </a>
+                <a href="#">
+                    <img class="menu-ch-icon" src="./assets/images/channel icon.ico" alt="">
+                </a>
+            </div>
+        </header>
+
+        <div class="categories">
+            <div class="c-section">
+                <button class="c c-active">All</button>
+                <button class="c">Category 1 </button>
+                <button class="c">Category 2 </button>
+                <button class="c">Category 3 </button>
+                <button class="c">Category 4 </button>
+                <button class="c">Category 5 </button>
+                <button class="c">Category 6 </button>
+                <button class="c">Category 7 </button>
+                <button class="c">Category 8 </button>
+                <button class="c">Category 9 </button>
+            </div>
+        </div>
+
+        <div class="v">
+            <section class="v-section">
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/9.jpg" alt="">
                     </a>
-                    <div>
-                        <a href="#" class="v-name">Title</a>
-                        <a href="#" class="c-name">Channel Name</a>
-                        <div>
-                            <span>12K views</span>
-                            •
-                            <span>a day ago</span>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </article>
-        </section>
-    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/5.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/4.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/9.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/9.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/6.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/7.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/9.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/7.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/9.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/9.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/8.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/9.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/5.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/5.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/4.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/5.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/9.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
 
-    <script src="./assets/js/script.js"></script>
-</body>
+            <section class="v-section">
+
+                <h2 class="v-section-title">
+                    Special Section
+                    <button class="section-close-btn">&times;</button>
+                </h2>
+
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/7.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/5.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/5.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/6.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/9.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/8.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/7.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/6.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/5.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/4.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/4.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/9.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="v-section">
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/7.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/7.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/5.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/8.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/5.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="v-container">
+                    <a href="#" class="thumb" data-duration="12:02">
+                        <img class="v-thumb" src="/assets/images/8.jpg" alt="">
+                    </a>
+                    <div class="v-detail">
+                        <a href="#">
+                            <img class="c-icon" src="/assets/images/5.jpg" alt="">
+                        </a>
+                        <div class="v-info">
+                            <a href="#" class="v-title">Title</a>
+                            <a href="#" class="ch-name">Channel Name</a>
+                            <div class="v-meta">
+                                <span>12K views</span>
+                                •
+                                <span>a day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
+
+        <script src="./assets/js/script.js"></script>
+    </body>
+
 </html>

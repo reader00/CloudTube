@@ -1,9 +1,229 @@
+*, *::after, *::before{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-size: 12px;
+}
+
+.v{
+    background-color: #fafafa;
+}
+
+.v-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(251px, 1fr));
+    gap: 3rem 1rem;
+    padding: 3rem 0;
+    margin: 0 1.5rem ;
+    border-top: 4px solid #ddd;
+}
+
+.v-section:first-child{
+    border-top: none;
+}
+
+.v-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.thumb{
+    position: relative;
+    display: flex;
+}
+
+.thumb::before{
+    content: attr(data-duration);
+    position: absolute;
+    background-color: rgba(0, 0, 0, .70);
+    color: #fff;
+    right: 5px;
+    bottom: 5px;
+    padding: .1em .3em;
+    border-radius: .3em;
+    font-size: .85em;
+}
+
 .v-thumb{
-    width: 250px;
-    height: 150px;
+    width: 100%;
+    height: 100%;
+    /* min-width: 250px;
+    min-height: 150px; */
+    object-fit: fill;
+    background-color: #bbb;
+}
+
+.v-detail{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1rem;
+    font-size: small;
 }
 
 .c-icon{
     width: 36px;
     height: 36px;
+    margin-right: .75rem;
+    border-radius: 50%;
+    background-color: #bbb;
 }
+
+.v-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.v-title{
+    font-size: 1.15em;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.ch-name{
+    margin-bottom: .1rem;
+    text-decoration: none;
+    color: #567;
+    transition: color .1 s;
+}
+
+.ch-name:hover{
+    color: #123;
+}
+
+.ch-name, .v-meta{
+    color: #567;
+    font-size: .9em;
+}
+
+.v-section-title{
+    grid-column: 1 / -1;
+    margin: -.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5rem;
+}
+
+.section-close-btn{
+    border: none;
+    background: none;
+    padding: 0;
+    font-size: 2rem;
+    color: #aba;
+    cursor: pointer;
+}
+
+.categories{
+    padding: 1rem 2rem;
+    border: 1px 0 solid #789;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+
+.c-section{
+    display: flex;
+    overflow: hidden;
+}
+
+.c{
+    margin-right: .6rem;
+    word-wrap: none;
+    white-space: nowrap;
+    border: 1px solid #bab;
+    border-radius: 100px;
+    background-color: #fafafa;
+    padding: .5rem 1rem;
+    font-size: inherit;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.c.c-active{
+    background-color: #999;
+    color: #fff;
+}
+
+.c:hover{
+    color: white;
+    background-color: #bababa;
+}    
+
+.c:last-child{
+    margin-right: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.cloudtube-logo{
+    height: 40px;
+}
+
+.search-form{
+    display: flex;
+    flex-grow: 1;
+    margin: 0 2rem 0 4rem;
+}
+
+.search-input{
+    width: 100%;
+    font-size: inherit;
+    padding: .5em;
+    border: 1px solid #789;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.search-btn{
+    display: flex;
+    align-items: center;
+    padding: 0 1.25rem;
+    border: 1px solid #789;
+    background-color: #fafafa;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.search-btn:hover{
+    background-color: #f1f1f1;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.menu-ch-icon{
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-color: #aba;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
